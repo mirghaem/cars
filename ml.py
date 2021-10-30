@@ -11,9 +11,9 @@ prise_list = []
 
 
 my_sql= mysql.connector.connect(user='root',
-                                password = '13141516',
+                                password = '123456789',
                                 host='127.0.0.1',
-                                database='firstghaem')
+                                database='ghaem')
 cursor = my_sql.cursor()
 query = ('SELECT * FROM ml')
 cursor.execute(query)
