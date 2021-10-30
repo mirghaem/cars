@@ -2,9 +2,9 @@ import requests
 import mysql.connector
 from bs4 import BeautifulSoup
 
-my_sql = mysql.connector.connect(user='root', password='13141516',
+my_sql = mysql.connector.connect(user='root', password='123456789',
                                 host= '127.0.0.1',
-                                database= 'firstghaem')
+                                database= 'ghaem')
 cursor = my_sql.cursor()
 query= ('CREATE TABLE ml ( name VARCHAR(50),mileage VARCHAR(15),year VARCHAR(6),prise VARCHAR(15))')
 cursor.execute(query)
