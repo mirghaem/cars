@@ -1,5 +1,5 @@
-# What is doing this project
-## this project have two part
+# What is doing this project?
+## this project have two part:
 ### 1
 first part collect information about cars from a site ( in this case used "truecar.com" ) and save all information in a database
 
